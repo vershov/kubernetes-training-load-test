@@ -6,5 +6,5 @@ export let options = {
 };
 
 export default function () {
-    http.get("http://tomcat-sample");
+    http.get("http://tomcat-sample/tomcat-sample/load.jsp");
 };
