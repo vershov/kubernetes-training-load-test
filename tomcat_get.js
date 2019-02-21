@@ -2,8 +2,7 @@ import http from 'k6/http';
 
 export let options = {
     duration: "10m",
-    vus: 10,
-    rps: 500
+    vus: 100
 };
 
 export default function () {
