@@ -4,8 +4,8 @@ export let options = {
     duration: "10m",
     vus: 10,
     rps: 500
-  };
+};
 
-export default function() {
-  const response = http.get("http://tomcat-sample");
+export default function () {
+    http.get("http://tomcat-sample");
 };
