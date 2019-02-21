@@ -2,7 +2,8 @@ import http from 'k6/http';
 
 export let options = {
     duration: "5m",
-    vus: 100
+    vus: 50,
+    noConnectionReuse: true
 };
 
 export default function () {
